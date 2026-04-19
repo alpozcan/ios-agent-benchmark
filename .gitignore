@@ -1,0 +1,28 @@
+# Build artifacts
+DerivedData/
+Derived/
+.build/
+build/
+
+# Xcode user data
+*.xcworkspace/xcuserdata/
+*.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+
+# Tuist generated (regenerated on demand)
+Atlas.xcworkspace/
+Atlas.xcodeproj/
+
+# Runs (per-agent output lives outside the repo by default)
+run/
+runs/
+results/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
