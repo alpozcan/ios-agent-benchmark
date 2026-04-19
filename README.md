@@ -76,7 +76,6 @@ A minimal wrapper is about 5 lines of bash. Anything more is up to you.
 ```
 ios-agent-benchmark/
 ├── README.md               # this file
-├── ROADMAP.md              # future benchmark tiers (2..8)
 ├── RUNBOOK.md              # step-by-step runbook
 ├── PRD.md                  # Tier 1 Atlas spec
 ├── Project.swift           # Tuist project manifest
@@ -93,10 +92,6 @@ ios-agent-benchmark/
     ├── oqm-scorer.py       # open-quality-metrics scoring
     └── results-aggregator.py  # aggregate across runs
 ```
-
-## Roadmap
-
-The current benchmark is **Tier 1** and tests foundation-level iOS engineering: protocol-driven DI, CoreData, strict concurrency, basic navigation. See [`ROADMAP.md`](./ROADMAP.md) for Tier 2 through Tier 8, which layer in gesture-driven UI, real-time state, platform extensions, multimedia, on-device ML, accessibility, and CI/CD.
 
 ## License
 
