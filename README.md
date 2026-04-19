@@ -82,8 +82,7 @@ ios-agent-benchmark/
 ├── Project.swift           # Tuist project manifest
 ├── Tuist.swift             # Tuist config
 ├── prompts/
-│   ├── implementation.md   # Tier 1 implementation instructions
-│   └── fix-template.md     # build-fix prompt template
+│   └── implementation.md   # Tier 1 implementation instructions
 └── scripts/
     ├── prep-clean.sh       # reset scaffold
     ├── run-impl.sh         # implementation phase
